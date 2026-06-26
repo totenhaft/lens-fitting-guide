@@ -5,18 +5,26 @@
 ## 사용 방법
 
 - 웹앱 URL을 Chrome 또는 Edge에서 엽니다.
-- 검사값을 입력하면 드림렌즈, Paragon CRT, RGP, 공막렌즈 피팅 가이드가 표시됩니다.
+- 검사값을 입력하면 드림렌즈, LK 드림렌즈, Paragon CRT, RGP, 공막렌즈 피팅 가이드가 표시됩니다.
 - `K5M 붙여넣기` 탭에서 topography 텍스트나 이미지를 붙여넣어 수치를 추출할 수 있습니다.
 
-## 2026-06-26 자료 반영 v3
+## 2026-06-26 자료 반영 v4
 
-추가 제공 자료를 기반으로 다음 로직을 보강했습니다.
+LK 드림렌즈 교육자료를 기반으로 다음 로직을 추가했습니다.
 
-- Paragon CRT 전용 탭 추가: BC, RZD, LZA, OAD, OR target, Dual Axis 후보 계산
+- LK CH2 / Premier / Premier Toric 전용 탭 추가
+- LK 초기 처방: Flat-K 기반 A.C 후보, Target Power, B.C 후보, Dia 후보 계산
+- Eccentricity 보정: Ecc 0.30-0.39 steep, 0.46-0.54 on K, 0.55 이상 flat 방향 보정
+- HVID 기준 Dia 후보: 10.2 / 10.6 / 11.0mm 선택 보조
+- Premier Toric 적용: 각막난시 1D 이상 또는 centration 불안정 시 고려
+- LK troubleshooting: superior, inferior, lateral decentration, central island, chemical damage별 수정 방향
+- Troubleshooting 탭에 `LK 드림렌즈` 렌즈군 추가
+
+기존 v3 내용도 유지됩니다.
+
+- Paragon CRT 전용 탭: BC, RZD, LZA, OAD, OR target, Dual Axis 후보 계산
 - CRT troubleshooting: 상방/하방/측방 이탈, central island, fake central island, pooling별 수정 방향
-- CRT OAD: WTW 기준 10.5/11.0/11.5mm 선택 가이드
-- CRT Dual Axis: 각막난시와 elevation difference 기준 RZD 차이 가이드
-- Onfit 공막렌즈 분기 추가: central clearance, limbal clearance, scleral landing/haptic alignment 중심으로 안내
+- Onfit 공막렌즈 분기: central clearance, limbal clearance, scleral landing/haptic alignment 중심 안내
 - OK 중심이탈 troubleshooting: 상측/이측, 하측/비측, lateral decentration, central island, staining/erosion별 수정 방향
 - RGP 고난시: Supervision toric/back toric 후보와 spectacle cylinder 2/3 rule 표시
 
