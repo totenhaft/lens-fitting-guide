@@ -4,9 +4,21 @@
 
 ## 사용 방법
 
-- 웹앱 URL을 Chrome 또는 Edge에서 엽니다.
+- 메인 앱: https://totenhaft.github.io/lens-fitting-guide/
+- 보유 렌즈 추천 페이지: https://totenhaft.github.io/lens-fitting-guide/inventory.html
 - 검사값을 입력하면 드림렌즈, LK 드림렌즈, Paragon CRT, RGP, 공막렌즈 피팅 가이드가 표시됩니다.
 - `K5M 붙여넣기` 탭에서 topography 텍스트나 이미지를 붙여넣어 수치를 추출할 수 있습니다.
+
+## 2026-06-26 자료 반영 v5
+
+실제 병원 보유 렌즈 재고를 기준으로 추천 렌즈를 고르는 전용 페이지를 추가했습니다.
+
+- `inventory.html` 추가
+- 계산된 Final FK가 43.45D처럼 나오더라도 실제 렌즈 step에 맞춰 43.50D 등으로 반올림
+- Google Sheet 범위 복사/붙여넣기 또는 CSV/TSV 붙여넣기 지원
+- 재고표의 Lens, Model, FK, Power, Dia, Cyl, Qty 컬럼 자동 인식
+- FK/A.C, Power, Dia, Cyl, 모델명을 점수화해 보유 렌즈 후보 순위 표시
+- 재고표는 브라우저 localStorage에 저장되어 다음 방문 때도 유지
 
 ## 2026-06-26 자료 반영 v4
 
